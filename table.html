@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Знакомство с HTML таблицами</title>
+	
+
+	</head>
+	<body>
+		<table 
+			width="400px" 
+			align="center" 
+			border="1"
+			cellpadding="10"
+			cellspacing="10"
+			frame="border"
+			rules="all"
+			summary="Здесь хранятся какие то данные по врачам"
+			bgcolor="#fff2cc"
+		>
+			<tr>
+				<th bgcolor="#ff5192" height="100" width="50">Заголовок 1</th>
+				<th width="200">Заголовок 2</th>
+				<th>Заголовок 3</th>
+			</tr>
+			<tr align="right" bgcolor="#ffa4c6" valign="top" style="height:100px">
+				<td>Данные 1</td>
+				<td>Данные 2</td>
+				<td>Данные 3</td>
+			</tr>
+			<tr>
+				<td>Данные 4</td>
+				<td>Данные 5</td>
+				<td>Данные 6</td>
+			</tr>
+		</table>
+		<br/>
+		<table width="400" border="1" align="center"      cellpadding="4" cellspacing="0">
+			<tr>
+				<td rowspan=3  bgcolor="#FBF0DB">Ячейка 2</td>
+				<td rowspan=2  bgcolor="#FBF0DB">Ячейка 1</td>
+				<td>Ячейка 3</td>
+			</tr>
+			<tr>
+				<td>Ячейка 4</td>
+			</tr>
+			<tr>
+				<td>Ячейка 5</td>
+				<td>Ячейка 6</td>
+			</tr>
+		</table>
+		<br/>
+		<table width="400" border="1" align="center"      cellpadding="4" cellspacing="0">
+			<tr>
+				<td colspan=3 bgcolor="#FBF0DB">
+					Ячейка 0
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2 bgcolor="#FBF0DB">
+					Ячейка 1
+				</td>
+				<td>Ячейка 2</td>
+			</tr>
+			<tr>
+				<td>Ячейка 3</td>
+				<td>Ячейка 4</td>
+				<td>Ячейка 5</td>
+			</tr>
+		</table>
+		<br/>
+		<table width="400" border="1" align="center"      cellpadding="4" cellspacing="0">
+			<tr>
+				<td colspan=2 rowspan=2 bgcolor="#FBF0DB">
+					Ячейка 1
+				</td>
+				<td>Ячейка 2</td>
+			</tr>	
+			<tr>
+				<td>Ячейка 3</td>
+			</tr>	
+			<tr>	<td>Ячейка 4</td>
+				<td>Ячейка 5</td>
+				<td>Ячейка 6</td>
+			</tr>
+		</table>
+	</body>
+</html>
