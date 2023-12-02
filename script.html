@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Знакомство со скриптами</title>
+	</head>
+	<body>
+		<p onclick="alert('clicked')">Кликни по мне</p>
+		<p ondblclick="alert('2clicked')">Кликни по мне 2 раза</p>
+		<p onmousedown="alert('onmousedown')">Кликни по мне</p>
+		<p onmouseup="alert('onmouseup')">Кликни по мне</p>
+		<p 
+			onmouseover="console.log('onmouseover')" 
+			onmouseout="console.log('onmouseout')"
+			onmousemove="console.log('mousemove')"
+		>Наведись на меня</p>
+		<input onfocus="console.log('focused')" onblur="console.log('blur')"></input>	
+		<noscript>
+			В вашем браузере не поддерживается/выключен JavaScript
+		</noscript>
+	</body>
+</html>
