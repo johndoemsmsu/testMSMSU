@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Знакомство с элементами форм</title>
+</head>
+<body>
+	<form>
+	<select name="fruits" size=7 multiple>
+		<option>Яблоко</option>
+		<option>Груша</option>
+		<option selected>Слива</option>
+		<option>Вишня</option>
+		<option selected>Вишня 2</option>
+		<option disabled>Вишня 3</option>
+		<option disabled>Вишня 4</option>
+	</select>
+	<br>
+	<textarea name="description" rows=6 cols=100></textarea>
+	<br>
+	<input name="login" type="text">
+	<br>
+	<input name="password" type="password">
+	<br>
+	<input name="name1" type="checkbox">
+	<br>
+	<input name="name2" type="radio">
+	<br>
+	<button type=submit>Отправить на сервер</button>
+	<br>
+	<input type=submit>
+	<br>
+	<br>
+	<input type=reset>
+	<br>
+	<input type=image src=login-button.png>
+	<br>
+	<input type=file>
+	<br>
+	<input type=number>
+	<br>
+	<input type=date>
+	<br>
+	<input type=time>
+	<br>
+	<input name="hidden_name" value="hidden_text" hidden>
+	</form>
+	<input size=5 maxlength=3 value=abc readonly>
+	<br>
+	<input size=5 maxlength=3 value=abc disabled>
+	<br>
+	<input value="1" type=checkbox checked>Картошка
+	<input value="2" type=checkbox>Яблоко
+	<br>
+	<input value="1" type=radio name="radio_test">Картошка
+	<input value="2" type=radio name="radio_test">Яблоко
+	<input value="3" type=radio checked name="radio_test">Картошка
+	<input value="4" type=radio name="radio_test">Яблоко
+</body>
+</html>
