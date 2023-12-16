@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>Знакомство с HTML</title>
+		<style>
+			p, span {
+				color: rgb(0%, 0%, 100%);
+			}
+			ul span {
+				color: rgb(100%, 0%, 0%);
+			}
+			ol > span {
+				color: rgb(100%, 0%, 0%);
+			}
+			p + span {
+				color: rgb(0%, 100%, 0%);
+			}
+			p ~ span {
+				color: rgb(0%, 100%, 0%);
+			}
+		</style>
+	</head>
+	<body>
+		<p>Первый</p>
+		<span>Второй</span>
+		<ul>
+			<span>Текст</span>
+			<li>Первый</li>
+			<li>Второй</li>
+			<li>Третий</li>
+			<div>
+				<span>Текст 2</span>
+			</div>
+		</ul>
+		<ol>
+			<span>Текст</span>
+			<li>Первый</li>
+			<li>Второй</li>
+			<li>Третий</li>
+			<div>
+				<span>Текст 2</span>
+			</div>
+		</ol>
+		<div>
+			<p>Ref</p>
+			<span>1</span>
+			<span>2</span>
+		<div>
+	</body>
+</html>
