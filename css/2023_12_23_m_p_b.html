@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Изучение margin, padding, border</title>
+		<style>
+			.outer {
+				border: 1px solid black;
+				background: red;
+				margin-bottom: 50px;
+			}
+			.inner {
+				background: green;
+				margin: 20px 50px 30px 40px;
+				padding: 30px;
+			}
+			.borders {
+				padding: 10px;
+				border-top: 5px solid black;
+				border-bottom-width: 15px;
+				border-bottom-color: red;
+				border-bottom-style: dotted;
+				margin-bottom: 50px;
+
+			}
+			.borders_v2 {
+				padding: 10px;
+				border: 30px outset black;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="outer">
+			<div class="inner">Здесь будет текст</div>
+		</div>
+		<div class="borders">
+			Test Border
+		</div>
+		<div class="borders_v2">
+			Test Border
+		</div>
+	</body>
+</html>
