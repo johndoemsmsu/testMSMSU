@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	background: linear-gradient(90deg, #18171D, #25232D);
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	width: 330px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+.title {
+	font-family: Inter, sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	color: white;
+}
+
+.textFieldWrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;	
+}
+
+.textFieldLabel {
+	font-family: Inter, sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	color: white;
+}
+
+.textField {
+	width: 100%;
+	background: #25232D;
+	border: 1px solid #2F2D3C;
+	border-radius: 5px;
+	height: 39px;
+	padding: 0 10px;
+	color: white;
+}
+
+.textField::placeholder {
+	color: #5C5962;
+}
