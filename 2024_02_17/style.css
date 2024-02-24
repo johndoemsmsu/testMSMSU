@@ -54,3 +54,22 @@
 .textField::placeholder {
 	color: #5C5962;
 }
+
+.textFieldPassword {
+	position: relative;
+}
+.textFieldPassword input {
+	padding: 0 40px 0 10px;
+}
+
+.eyeClass {
+	position: absolute;
+	top: 0;
+	width: 39px;
+	height: 39px;
+	cursor: pointer;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
