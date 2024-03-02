@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>Логические операторы</title>
+	</head>
+	<body>
+		<script>
+			console.log(true || true);
+			console.log(true || false);
+			console.log(false || true);
+			console.log(false || false);
+//			console.log(1 || 0);
+//			console.log(true || 'я здесь');
+//			console.log(false || 'я здесь');
+
+			console.log(true && true);
+			console.log(true && false);
+			console.log(false && true);
+			console.log(false && false);
+			
+			let hour = 11;
+			if (hour < 10 || hour > 18) {
+				console.log('аптека закрыта ||');
+			} else {
+				console.log('аптека открыта ||');
+			}
+
+			if (hour >= 10 && hour <= 18) {
+				console.log('аптека открыта &&');
+			} else {
+				console.log('аптека закрыта &&');
+			}
+
+			
+
+//			a ||= b;
+//			a || (a=b);
+
+//			a &&=b
+//			a && (a=b)
+
+//			result = !value
+
+			let value1 = true; 
+			let value2 = false;
+			let value3 = 'я здесь';
+			console.log(!value1);
+			console.log(!value2);
+			console.log(!!value3);
+
+			
+
+			
+		</script>
+	</body>
+</html>

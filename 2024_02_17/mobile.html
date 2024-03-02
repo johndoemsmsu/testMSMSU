@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Авторизация Мобильная</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+		<script src="code.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="wrapper mobileWrapper">
+				<div class="title">
+					Вход в систему
+				</div>
+				<div class="textFieldWrapper">
+					<div class="textFieldLabel">Email</div>
+					<input class="textField" placeholder="Введите email"/>
+				</div>
+				<div class="textFieldWrapper">
+					<div class="textFieldLabel">Пароль</div>
+					<div class="textFieldPassword">
+					<input id="textPassword" class="textField" placeholder="Введите пароль" type="password"/>
+					<div class="eyeClass"><img src="eye.svg"/></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="checkboxWrapper" id="checkbox">
+						<div class="checkboxArrowWrapper">
+							<img src="arrow.svg" style="display: none" id="checkboxImage" />
+						</div>
+						<div class="label checkboxLabel">
+							Запомнить меня
+						</div> 
+					</div>
+					<div class="label link" id="linkLabel">Забыли пароль?</div>
+				</div>
+				<div  class="buttonGroup">
+					<div class="buttonClass">Войти в систему</div>
+					<div class="buttonClass buttonOutline">Зарегистрироваться</div>
+					<div class="orLabel">или</div>
+					<div class="buttonClass"><img src="google.svg"/>Войти с помощью Google</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

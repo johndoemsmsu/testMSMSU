@@ -20,6 +20,11 @@
 	gap: 30px;
 }
 
+.mobileWrapper {
+	width: 100%;
+	padding: 0 10%;
+}
+
 .title {
 	font-family: Inter, sans-serif;
 	font-weight: 600;
@@ -72,4 +77,84 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.checkboxWrapper {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	cursor: pointer;
+}
+
+.checkboxArrowWrapper {
+	width: 17px;
+	height: 17px;
+	border-radius: 3px;
+	border: 1px solid #2F2D3C;
+}
+
+.label {
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.checkboxLabel {
+	color: white;
+}
+
+.checkboxArrowActive {
+	border: 1px solid #6385C7;
+	background: #6385C7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.link {
+	color: #6385C7;
+	cursor: pointer;
+}
+
+.buttonGroup {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+
+.buttonClass {
+	height: 45px;
+	padding: 0 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #6385C7;
+	color: #fff;
+	cursor: pointer;
+	font-family: Inter, sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	border-radius: 5px;
+	gap: 10px;
+}
+
+.buttonOutline {
+	background: transparent;
+	color: #6385C7;
+	border: 1px solid #6385C7;
+}
+
+.orLabel {
+	font-family: Inter, sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
 }
