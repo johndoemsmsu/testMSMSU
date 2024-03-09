@@ -1,3 +1,18 @@
+const db = [
+	{
+		email: 'admin@admin',
+		password: 'admin',
+	},
+	{
+		email: 'user@user',
+		password: 'user',
+	},
+	{
+		email: 'manager@manager',
+		password: 'manager',
+	}
+]
+
 document.addEventListener("DOMContentLoaded", () => {
 	const eyeButtonClass = '.eyeClass';
 	const eyeButton = document.querySelector(eyeButtonClass);
@@ -32,9 +47,25 @@ document.addEventListener("DOMContentLoaded", () => {
 		window.open("https://www.google.ru/", "_blank")
 	})
 
-	const successButton = document.getElementById('successButton');
-	successButton && successButton.addEventListener('click', () => {
-		setTimeout(() => window.location.href = "success.html", 1000);
+	document.querySelector('form').addEventListener("submit", (event) => {	
+		event.preventDefault();
+		const email = document.getElementById("email").value;
+		const password = document.querySelector("#textPassword").value;
+		if (email === '' || password === '') {
+			alert('Необходимо ввести email и пароль!');
+		} else {
+			const person = db.find(el => email === el.email);
+			if (person) {
+				if (person.password === password) {
+					window.location.href = "success.html";
+				} else {
+					alert('Неверный пароль!');
+				}
+			} else {
+				alert('Такого пользователя не существует!');
+				document.querySelector('form').reset();
+			}
+		}
 	})
 });
 

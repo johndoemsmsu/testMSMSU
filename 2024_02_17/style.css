@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+.font {
+	font-family: Anta, sans-serif;
+}
+
 .container {
 	background: linear-gradient(90deg, #18171D, #25232D);
 	height: 100%;
@@ -20,13 +24,14 @@
 	gap: 30px;
 }
 
-.mobileWrapper {
-	width: 100%;
-	padding: 0 10%;
+@media screen and (max-width: 768px) {
+	.wrapper {
+		width: 100%;
+		padding: 0 10%;
+	}
 }
 
 .title {
-	font-family: Inter, sans-serif;
 	font-weight: 600;
 	font-size: 25px;
 	color: white;
@@ -40,7 +45,6 @@
 }
 
 .textFieldLabel {
-	font-family: Inter, sans-serif;
 	font-weight: 600;
 	font-size: 15px;
 	color: white;
@@ -100,7 +104,6 @@
 }
 
 .label {
-	font-family: Inter, sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 }
@@ -138,11 +141,11 @@
 	background: #6385C7;
 	color: #fff;
 	cursor: pointer;
-	font-family: Inter, sans-serif;
 	font-weight: 500;
 	font-size: 15px;
 	border-radius: 5px;
 	gap: 10px;
+	border: none;
 }
 
 .buttonOutline {
@@ -152,7 +155,6 @@
 }
 
 .orLabel {
-	font-family: Inter, sans-serif;
 	font-weight: 500;
 	font-size: 15px;
 	color: #fff;
