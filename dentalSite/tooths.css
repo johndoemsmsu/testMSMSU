@@ -1,0 +1,18 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+	top: 0;
+	position: absolute;
+}
+
+.toothsContainer {
+    width: 858px;
+    height: 1200px;
+    /* background: #F4F6FD; */
+    position: relative;
+}
+
+.container {
+	position: relative;
+}
